@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Author-Regular';
+  src: url('./assets/Author-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('./assets/Satoshi-Medium.ttf') format('truetype');
+}
+
+body{
+  background: #f8f8f8;
+}
+
+.main{
+  @apply px-6 md:mx-16 flex flex-col items-center;
+  /* background: red; */
+}
+
+.container{
+  @apply my-4;
+}
+
+.header{
+  @apply bg-gray-800 text-white flex justify-between items-center p-4 
+}
+
+.nav{
+  @apply fixed top-0 right-0 w-full h-[100vh] bg-[rgba(0,0,0,.75)] flex justify-center items-center
+}
+
+.menu{
+  @apply bg-white w-[80%] px-5 py-10 text-black rounded 
+}
+
+.title{
+  @apply text-center text-4xl font-satoshi font-bold tracking-wide bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent;
+}
+
+.text_input{
+  @apply px-1 w-full outline-0 border-[1px] border-gray-200 focus:border-purple-300 h-10 rounded
+}
+
+.textarea_input{
+  @apply px-1 w-full outline-0 border-[1px] border-gray-200 focus:border-purple-300 h-28 rounded
+}
+
+.blue_gradient_btn{
+  @apply bg-gradient-to-r from-blue-500 to-purple-700 text-white w-full py-2 rounded disabled:bg-gray-300
+}
+
+.outline_btn{
+  @apply text-blue-600 rounded py-1 px-4 border-[1px] border-blue-600 active:border-transparent active:bg-blue-600 active:text-white
+}
+
+.login_ui{
+  @apply bg-white shadow shadow-xl p-5 rounded rounded-2xl 
+}
+
+.card{
+  @apply bg-gray-200 p-4 rounded rounded-2xl text-center border-[1px] my-4
+}
+
+.card_button{
+  @apply font-bold border-2 border-blue-500 px-4 py-2 my-2
+}
+
+.darktheme{
+  @apply bg-gray-800 text-white
+}
+
+.darkthemeDim{
+  @apply bg-gray-700 text-white
+}
+
+.progressClassName{
+  background: green;
+}
