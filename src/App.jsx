@@ -16,10 +16,10 @@ import Context from "./context-api/Context";
 
 function App() {
   // Setup console
-  eruda.init({
+  /*eruda.init({
     container: document.getElementById('console'),
     tools: ["console"]
-  })
+  })*/
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [userName, setUserName] = useState(null);
