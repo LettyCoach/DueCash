@@ -33,6 +33,8 @@
 ### Live Demo 🎉
 Explore the live version of Due-Cash <a target="_blank" href="https://due-cash.vercel.app">here</a>.
 
+Explore **backend** code [here](https://github.com/fazle-rabbi-dev/due-cash-api).
+
 ### 📬 Connect with me
 > Let's connect! Reach out for collaborations, projects, or just a friendly chat.
 
